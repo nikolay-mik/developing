@@ -10,37 +10,52 @@
 body {
     margin: 0;
     padding: 0;
+
+    font-family: Arial, sans-serif; 
     font-size: 14px;
+    line-height: 1.16;
 }
 
 .navigation {
     background: #f5f5f5;
     margin: 0;
     padding: 10px 0 0;
-    font-family: ProximaNovaCondensed, Arial, sans-serif;
-    font-size: 13px;
 }
 
+
+/*
+Header Link
+link, visited, hover, focus, active
+*/
+
 .header-link {
-    color: #999;
+    font-family: ProximaNovaCondensed, Arial, sans-serif;
+    font-size: 13px;
     text-decoration: none;
 }
 
-.header-link:hover {
+.header-link:link,
+.header-link:visited {
+    color: #999;
+}
+
+.header-link:hover,
+.header-link:focus {
     color: #09f;
     text-decoration: underline;
 }
 
-.vacancy-search-term {
-    border: 1px solid #ccc;
-    height: 38px;
+.header-link:active {
+    color: #f00;
+    text-decoration: underline;
 }
 
-.vacancy-search-type {
-    height: 38px;
-    border-radius: 0;
-}
 
+.vacancy-search {
+    font-size: inherit;
+    line-height: inherit;
+}
+ 
 .menu {
     background: #000;
     font-family: ProximaNovaCondensed, Arial, sans-serif;
@@ -50,11 +65,28 @@ body {
     margin: 20px 0 0 -30px;
 }
 
+
+/*
+Menu Item
+link, visited, hover, focus, active
+*/
+
 .menu-item {
     padding: 0 15px;
-    color: #fff;
     text-decoration: none;
 }
+
+.menu-item:link,
+.menu-item:visited {
+    color: #fff;
+}
+
+.menu-item:hover,
+.menu-item:focus,
+.menu-item:active {
+    color: #f00;
+}
+
 
 .cover {
     height: 655px;
@@ -67,10 +99,6 @@ body {
 .wrapper-article {
     width: 960px;
     margin: 0 auto;
-
-/*    font-family: Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.57; */
 }
 
 .wrapper-system {
@@ -81,17 +109,10 @@ body {
 .cover-content-header {
     font-family: ProximaNovaCondensedBold, Arial, sans-serif;
     font-size: 72px;
-    line-height: 1.16;
 }
 
 .cover-content-attributes {
     color: #ccc;
-}
-
-.content {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.57;
 }
 
 .cover-content {
@@ -103,30 +124,47 @@ body {
 .cover-content-chapter {
     margin: 0 0 20px;
     padding: 200px 0 0;
-    font-size: 14px;
 }
 
 .cover-content-header {
-    margin: 0 0 20px;
+    margin: 0 0 10px;
 }
 
 .cover-content-lead {
     font-size: 18px;
-    margin: 0 0 40px;
+    margin: 0 0 50px;
 }
 
 .cover-content-attributes {
     font-size: 12px;
 }
 
+
+/*
+Content Chapter Link
+link, visited, hover, focus, active
+*/
+
 .cover-content-chapter-link {
     color: #fff;
+}
+
+.cover-content-chapter-link:link,
+.cover-content-chapter-link:visited {
     text-decoration: none;
 }
 
-.cover-content-chapter-link:hover {
+
+.cover-content-chapter-link:hover,
+.cover-content-chapter-link:focus {
     text-decoration: underline;
 }
+
+.cover-content-chapter-link:active {
+    text-decoration: underline;
+    color: #f00;
+}
+
 
 .cover-attribute_views {
     padding: 0 0 0 18px;
@@ -144,27 +182,44 @@ body {
     border: 1px solid #e1e1e1;
     padding: 20px 40px 20px 20px;
     margin: 40px 0 60px;
-    font-size: 14px;
 }
 
 .company-name {
     font-size: 48px;
     font-family: ProximaNovaCondensedBold, Arial, sans-serif; 
-    line-height: 1.16;
     margin: 0;
 }
+
+
+/*
+Header Link
+link, visited, hover, focus, active
+*/
 
 .company-url {
-    color: #09f;
     margin: 0;
     text-decoration: none;
-
 }
 
-.company-url:hover {
+.company-url:link {
+    color: #09f;
+}
+
+.company-url:visited {
+    color: purple;
+}
+
+.company-url:hover,
+.company-url:focus {
+    color: #900;
     text-decoration: underline;
-    color: #990000;
 }
+
+.company-url:active {
+    color: #f00;
+    text-decoration: underline;
+}
+
 
 .company-description {
     color: #666;
@@ -178,83 +233,127 @@ body {
 .header-2 {
     font-family: ProximaNovaCondensed, Arial, sans-serif;
     font-size: 36px;
-    line-height: 1.16;
-    margin: 40px 0 20px; 
+    margin: 40px 0 10px; 
 }
 
-.pic-article {
+.article-pic {
     width: 100%;
     margin: 0 0 20px;
 }
 
 .text-main {
+    font-size: 18px;
+    line-height: 1.57;
+
     margin: 0 0 20px;
     width: 770px;
 }
 
+
+/*
+Button Main
+link (?), visited (?), hover, focus, active
+*/
+
 .button-main {
     height: 38px;
     color: #fff;
-    font-size: 14px;
-    background: #09f;
     border: 0;
     padding: 0 15px;
-    line-height: 18px;
+    font-size: inherit;    
+    line-height: inherit;
+    cursor: pointer;
+    background: #09f;
 }
 
-.comment-item {
-    font-size: 14px;
-    font-family: Arial, sans-serif;
+.button-main:hover,
+.button-main:focus {
+    background: #0af;
 }
 
-.comment-input {
+.button-main:active {
+    background: #06f;
+}
+
+.comment {
+    width: 300px;
+}
+
+.comment-label {
+    display: block;
+    margin: 0 0 5px;
+}
+
+.system-control {
     border: 1px solid #999;
     height: 38px;
-    width : 300px;
+    width : 100%;
     padding: 0 0 0 10px;
     margin:0 0 20px 0;
-    font-size: 14px;
+    font-size: inherit;
+
 }
 
-.comment-text {
-    border: 1px solid #999;
-    width : 300px;
+.system-control_text {
+    height: 200px;
     padding: 10px 0 0 10px;
-    margin:0;
-    font-size: 14px;
+    margin: 0;
     margin:0 0 20px 0;  
 }
 
 .footer {
-    margin: 40px 0;
-    font-family: Arial, sans-serif;
+    margin: 60px 0;
     font-size: 12px;
     color: #999;
 }
 
+
+/*
+Footer Menu
+link, visited, hover, focus, active
+*/
+
 .footer-menu {
     margin: 0 0 10px;
-    text-decoration: none;
+    text-decoration: none;    
+}
+
+.footer-menu-main {
+    padding: 0 5px 0 0;
+    text-decoration: inherit;
 }
 
 .footer-menu-item {
-    color: #999;
-    text-decoration: inherit;
     border-left: 1px solid #ccc;
     padding: 0 5px 0 7px;
+    text-decoration: inherit;
+}
+
+.footer-menu-main:link,
+.footer-menu-main:visited {
+    color: #333;
+}
+
+.footer-menu-item:link,
+.footer-menu-item:visited {
+    color: #999;
 }
 
 .footer-menu-item:hover,
-.footer-menu-main:hover {
+.footer-menu-main:hover,
+.footer-menu-item:focus,
+.footer-menu-main:focus {
     color: #09f;
     text-decoration: underline;
 }
 
-.footer-menu-main {
-    color: #333;
-    text-decoration: inherit;
-    padding: 0 5px 0 0;
+.footer-menu-item:active,
+.footer-menu-main:active
+ {
+    color:#f00;
+    text-decoration: underline;
 }
+
 
 .footer-stat {
     margin: 30px 0 0;

@@ -18,9 +18,9 @@
             <img alt="hh.ru" src="i/hh.ru__min_.svg" />
 
             <form class="vacancy-search">
-                <input type="text" class="vacancy-search-term" />
+                <input type="text" class="system-control" />
 
-                <select class="vacancy-search-type">
+                <select class="system-control">
                     <option selected>Вакансии</option>
                     <option>Резюме</option>
                     <option>Компании</option>
@@ -94,7 +94,9 @@
         
         <div class="company">
             <div class="company-logo">
-                    <img src="c/logo.svg" alt="HeadHunter" />
+                    <a href="http://hh.ru/">
+                        <img src="c/logo.svg" alt="HeadHunter" />
+                    </a>
             </div>
         
             <div class="company-name">
@@ -107,7 +109,7 @@
 
             <div class="company-description">Строительство, недвижимость, эксплуатация, проектирование</div>
             
-            <a href="" class="company-url">Вакансии компании</a>
+            <a href="javascript: void(0);" class="company-url">Вакансии компании</a>
         </div>
 
         <div class="article">
@@ -117,7 +119,7 @@
             <p class="text-main">
                 Руководитель проекта: &laquo;Все, что вы&nbsp;видите на&nbsp;наших сайтах, было создано именно нами и&nbsp;нашими руками&raquo;.
             </p>
-            <img src="c/ksu.jpg" alt="" class="pic-article">
+            <img src="c/ksu.jpg" alt="" class="article-pic">
             <p class="text-main">
                 Раньше Ксения целенаправленно собиралась стать переводчиком французского языка,
                 но&nbsp;поступила на&nbsp;физмат, а&nbsp;французский был забыт до&nbsp;уровня &laquo;жемапель
@@ -132,7 +134,7 @@
                 Менеджер проекта: &laquo;Мы&nbsp;верим в&nbsp;то, что настоящая работа обязательно должна быть любимой.
                 Так гораздо интереснее, чем сидеть на&nbsp;работе и&nbsp;бессмысленно отбывать часы&raquo;.
             </p>
-            <img src="c/ann.jpg" alt="" class="pic-article">
+            <img src="c/ann.jpg" alt="" class="article-pic">
             <p class="text-main">
                 В&nbsp;2008 году Аня стала вторым по&nbsp;счету сотрудником в&nbsp;нашем только что открывшемся колл-центре
                 в&nbsp;Ярославле, а&nbsp;в&nbsp;2012 году переместилась на&nbsp;позицию руководителя службы технической поддержки
@@ -146,7 +148,7 @@
             <p class="text-main">
                 Разработчик мобильных приложений: &laquo;У&nbsp;нас ценят свободу творчества и&nbsp;предпринимательский дух&raquo;.
             </p>
-            <img src="c/max.jpg" alt="" class="pic-article">
+            <img src="c/max.jpg" alt="" class="article-pic">
             <p class="text-main">
                 Максим занимается Android-разработкой с&nbsp;далекого 2007&nbsp;года. Он&nbsp;создавал приложения для самых
                 разных компаний, включая job-сайты, и, по&nbsp;его словам, именно это и&nbsp;побудило его попасть
@@ -158,28 +160,28 @@
         <form class="comment">
 
             <h2 class="header-2">
-                Добавление комментария
+                Комментарий
             </h2>
 
             <div class="comment-item">
-                <label for="name">
+                <label for="name" class="comment-label">
                     Имя
-                </label><br />
-                <input id="name" type="text" class="comment-input" />
+                </label>
+                <input id="name" type="text" class="system-control" />
             </div>
 
             <div class="comment-item">
-                <label for="email">
+                <label for="email" class="comment-label">
                     E-mail
-                </label><br />
-                <input id="email" type="email" class="comment-input" />
+                </label>
+                <input id="email" type="email" class="system-control" />
             </div>
 
             <div class="comment-item">
-                <label for="comment-text">
+                <label for="comment-text" class="comment-label">
                     Комментарий
-                </label><br />
-                <textarea id="comment-text" class="comment-text" cols="30" rows="10"></textarea>
+                </label>
+                <textarea id="comment-text" class="system-control system-control_text" cols="30" rows="10"></textarea>
             </div>
             
             <button type="submit" class="button-main">

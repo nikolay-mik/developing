@@ -19,7 +19,7 @@ body {
 .navigation {
     background: #f5f5f5;
     margin: 0;
-    padding: 10px 0 0;
+    padding-top: 10px;
 }
 
 
@@ -122,17 +122,17 @@ link, visited, hover, focus, active
 }
 
 .cover-content-chapter {
-    margin: 0 0 20px;
+    margin-bottom: 20px;
     padding: 200px 0 0;
 }
 
 .cover-content-header {
-    margin: 0 0 10px;
+    margin-bottom: 10px;
 }
 
 .cover-content-lead {
     font-size: 18px;
-    margin: 0 0 50px;
+    margin-bottom: 50px;
 }
 
 .cover-content-attributes {
@@ -167,14 +167,14 @@ link, visited, hover, focus, active
 
 
 .cover-attribute_views {
-    padding: 0 0 0 18px;
-    margin: 0 0 0 15px;
+    padding-left: 18px;
+    margin-left: 15px;
     background: url("i/eye.svg") no-repeat 0 1px;
 }
 
 .cover-attribute_comments {
-    padding: 0 0 0 18px;
-    margin: 0 0 0 15px;
+    padding-left: 18px;
+    margin-left: 15px;
     background: url("i/chat.svg") no-repeat 0 1px;
 }
 
@@ -238,15 +238,16 @@ link, visited, hover, focus, active
 
 .article-pic {
     width: 100%;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
 }
 
 .text-main {
     font-size: 18px;
     line-height: 1.57;
 
-    margin: 0 0 20px;
     width: 770px;
+
+    margin: 0 0 20px;
 }
 
 
@@ -281,24 +282,24 @@ link (?), visited (?), hover, focus, active
 
 .comment-label {
     display: block;
-    margin: 0 0 5px;
+    margin-bottom: 5px;
+}
+
+.comment-item {
+    margin-bottom: 20px;    
 }
 
 .system-control {
     border: 1px solid #999;
     height: 38px;
     width : 100%;
-    padding: 0 0 0 10px;
-    margin:0 0 20px 0;
+    padding-left: 10px;
     font-size: inherit;
-
 }
 
 .system-control_text {
     height: 200px;
     padding: 10px 0 0 10px;
-    margin: 0;
-    margin:0 0 20px 0;  
 }
 
 .footer {
@@ -314,12 +315,12 @@ link, visited, hover, focus, active
 */
 
 .footer-menu {
-    margin: 0 0 10px;
+    margin-bottom: 10px;
     text-decoration: none;    
 }
 
 .footer-menu-main {
-    padding: 0 5px 0 0;
+    padding-right: 5px;
     text-decoration: inherit;
 }
 
@@ -356,7 +357,7 @@ link, visited, hover, focus, active
 
 
 .footer-stat {
-    margin: 30px 0 0;
+    margin-top: 30px;
 }
 
 .footer-social {

@@ -10,18 +10,17 @@
 
 <body>
 
-<div class="wrapper">
+<div class="navigation">
 
-    <div class="navigation">
-
-        <!-- Header -->
-        <div class="header">
+    <!-- Header -->
+    <div class="header">
+        <div class="wrapper-system">
             <img alt="hh.ru" src="i/hh.ru__min_.svg" />
 
             <form class="vacancy-search">
-                <input type="text" class="vacancy-search-term" />
+                <input type="text" class="system-control" />
 
-                <select class="vacancy-search-type">
+                <select class="system-control">
                     <option selected>Вакансии</option>
                     <option>Резюме</option>
                     <option>Компании</option>
@@ -41,34 +40,40 @@
             <div class="locale">
                 <button class="locale-switcher">Сменить язык</button>
             </div>
-        </div>
+        </div>    
+    </div>
 
-        <!-- Main menu -->
-        <div class="menu">
+    <!-- Main menu -->
+    <div class="menu">
+        <div class="wrapper-system">
             <a href="" class="menu-item">Ищу работу</a>
             <a href="" class="menu-item">Ищу сотрудников</a>
             <a href="" class="menu-item">Помощь</a>
             <a href="" class="menu-item">Компании</a>
             <a href="" class="menu-item">Проекты</a>
-        </div>
+        </div>    
     </div>
+</div>
 
-    <!-- Main content -->
-    <div class="content">
-        <div class="cover">
-            <p class="cover-chapter">
-                Статьи / Интересное
-            </p>
+<!-- Main content -->
+<div class="content">
 
-            <h1 class="cover-header">
+    <div class="cover">
+        <div class="cover-content">
+            <div class="cover-content-chapter">
+                <a href="" class="cover-content-chapter-link">Статьи</a> / <a href="" class="cover-content-chapter-link">Интересное</a>
+            </div>
+
+            <h1 class="cover-content-header">
                 Лица компании HeadHunter
             </h1>
 
-            <p class="cover-lead">
+            <!--Q: Dont know what to do-->
+            <p class="cover-content-lead">
                 Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.
             </p>
 
-            <div class="cover-attributes">
+            <div class="cover-content-attributes">
                 <span class="cover-attribute cover-attribute_date">
                     15 ноября 2015
                 </span>
@@ -81,20 +86,30 @@
                     4
                 </span>
             </div>
-        </div>
 
+        </div>    
+    </div>
+
+    <div class="wrapper-article">
+        
         <div class="company">
+            <div class="company-logo">
+                    <a href="http://hh.ru/">
+                        <img src="c/logo.svg" alt="HeadHunter" />
+                    </a>
+            </div>
+        
             <div class="company-name">
                 HeadHunter
             </div>
-            <div class="company-url">
-                <a href="http://hh.ru/">
-                    hh.ru
-                </a>
-            </div>
-            <div class="company-logo">
-                <img src="" alt="HeadHunter" />
-            </div>
+
+            <a href="http://hh.ru/" class="company-url">
+                hh.ru
+            </a>
+
+            <div class="company-description">Строительство, недвижимость, эксплуатация, проектирование</div>
+            
+            <a href="javascript: void(0);" class="company-url">Вакансии компании</a>
         </div>
 
         <div class="article">
@@ -104,7 +119,7 @@
             <p class="text-main">
                 Руководитель проекта: &laquo;Все, что вы&nbsp;видите на&nbsp;наших сайтах, было создано именно нами и&nbsp;нашими руками&raquo;.
             </p>
-            <img src="" alt="" class="pic-article">
+            <img src="c/ksu.jpg" alt="" class="article-pic">
             <p class="text-main">
                 Раньше Ксения целенаправленно собиралась стать переводчиком французского языка,
                 но&nbsp;поступила на&nbsp;физмат, а&nbsp;французский был забыт до&nbsp;уровня &laquo;жемапель
@@ -119,7 +134,7 @@
                 Менеджер проекта: &laquo;Мы&nbsp;верим в&nbsp;то, что настоящая работа обязательно должна быть любимой.
                 Так гораздо интереснее, чем сидеть на&nbsp;работе и&nbsp;бессмысленно отбывать часы&raquo;.
             </p>
-            <img src="" alt="" class="pic-article">
+            <img src="c/ann.jpg" alt="" class="article-pic">
             <p class="text-main">
                 В&nbsp;2008 году Аня стала вторым по&nbsp;счету сотрудником в&nbsp;нашем только что открывшемся колл-центре
                 в&nbsp;Ярославле, а&nbsp;в&nbsp;2012 году переместилась на&nbsp;позицию руководителя службы технической поддержки
@@ -133,7 +148,7 @@
             <p class="text-main">
                 Разработчик мобильных приложений: &laquo;У&nbsp;нас ценят свободу творчества и&nbsp;предпринимательский дух&raquo;.
             </p>
-            <img src="" alt="" class="pic-article">
+            <img src="c/max.jpg" alt="" class="article-pic">
             <p class="text-main">
                 Максим занимается Android-разработкой с&nbsp;далекого 2007&nbsp;года. Он&nbsp;создавал приложения для самых
                 разных компаний, включая job-сайты, и, по&nbsp;его словам, именно это и&nbsp;побудило его попасть
@@ -145,28 +160,28 @@
         <form class="comment">
 
             <h2 class="header-2">
-                Добавление комментария
+                Комментарий
             </h2>
 
             <div class="comment-item">
-                <label for="name">
+                <label for="name" class="comment-label">
                     Имя
                 </label>
-                <input id="name" type="text" class="comment-input" />
+                <input id="name" type="text" class="system-control" />
             </div>
 
             <div class="comment-item">
-                <label for="email">
+                <label for="email" class="comment-label">
                     E-mail
                 </label>
-                <input id="email" type="email" class="comment-input" />
+                <input id="email" type="email" class="system-control" />
             </div>
 
             <div class="comment-item">
-                <label for="comment-text">
+                <label for="comment-text" class="comment-label">
                     Комментарий
                 </label>
-                <textarea id="comment-text" class="comment-text" cols="30" rows="10"></textarea>
+                <textarea id="comment-text" class="system-control system-control_text" cols="30" rows="10"></textarea>
             </div>
             
             <button type="submit" class="button-main">
@@ -176,7 +191,9 @@
         </form>
 
     </div>
+</div>    
 
+<div class="wrapper-system">
     <!-- Footer -->
     <div class="footer">
 

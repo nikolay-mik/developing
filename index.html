@@ -6,196 +6,280 @@
     <title>Лица компании HeadHunter</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
 
-<div class="navigation">
+    <div class="navigation">
 
-    <!-- Header -->
-    <div class="header">
-        <div class="wrapper-system">
-            <img alt="hh.ru" src="i/hh.ru__min_.svg" />
+        <div class="wrapper">
 
-            <form class="vacancy-search">
-                <input type="text" class="system-control" />
+            <!-- Header -->
+            <header class="header">
+                <img alt="hh.ru" src="i/hh.ru__min_.svg" class="hh-logo" />
 
-                <select class="system-control">
-                    <option selected>Вакансии</option>
-                    <option>Резюме</option>
-                    <option>Компании</option>
-                </select>
+                <form class="vacancy-search">
+                    <div class="vacancy-search-input">
+                        <input type="text" class="system-control" placeholder="Вакансия" />
+                    </div>
 
-                <button type="submit" class="button-main">Найти</button>
+                    <div class="vacancy-search-select">
+                        <select class="system-control system-control_select">
+                            <option selected>Вакансии</option>
+                            <option>Резюме</option>
+                            <option>Компании</option>
+                        </select>
+                    </div>
 
-                <div class="vacancy-search-advanced">
-                    <a href="" class="header-link">Расширенный поиск</a>
+                    <div class="vacancy-search-button">
+                        <button type="submit" class="button-main">Найти</button>
+                    </div>
+
+                    <div class="vacancy-search-advanced">
+                        <a href="" class="header-link">Расширенный поиск</a>
+                    </div>
+                </form>
+
+                <div class="area">
+                    <a href="" class="header-link">Работа в России</a>
                 </div>
-            </form>
 
-            <div class="area">
-                <a href="" class="header-link">Работа в России</a>
-            </div>
+                <div class="locale">
+                    <button class="locale-switcher">Сменить язык</button>
+                </div>
+            </header>
 
-            <div class="locale">
-                <button class="locale-switcher">Сменить язык</button>
-            </div>
-        </div>    
-    </div>
-
-    <!-- Main menu -->
-    <div class="menu">
-        <div class="wrapper-system">
-            <a href="" class="menu-item">Ищу работу</a>
-            <a href="" class="menu-item">Ищу сотрудников</a>
-            <a href="" class="menu-item">Помощь</a>
-            <a href="" class="menu-item">Компании</a>
-            <a href="" class="menu-item">Проекты</a>
-        </div>    
-    </div>
-</div>
-
-<!-- Main content -->
-<div class="content">
-
-    <div class="cover">
-        <div class="cover-content">
-            <div class="cover-content-chapter">
-                <a href="" class="cover-content-chapter-link">Статьи</a> / <a href="" class="cover-content-chapter-link">Интересное</a>
-            </div>
-
-            <h1 class="cover-content-header">
-                Лица компании HeadHunter
-            </h1>
-
-            <!--Q: Dont know what to do-->
-            <p class="cover-content-lead">
-                Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.
-            </p>
-
-            <div class="cover-content-attributes">
-                <span class="cover-attribute cover-attribute_date">
-                    15 ноября 2015
-                </span>
-
-                <span class="cover-attribute cover-attribute_views">
-                    143
-                </span>
-
-                <span class="cover-attribute cover-attribute_comments">
-                    4
-                </span>
-            </div>
-
-        </div>    
-    </div>
-
-    <div class="wrapper-article">
-        
-        <div class="company">
-            <div class="company-logo">
-                    <a href="http://hh.ru/">
-                        <img src="c/logo.svg" alt="HeadHunter" />
-                    </a>
-            </div>
-        
-            <div class="company-name">
-                HeadHunter
-            </div>
-
-            <a href="http://hh.ru/" class="company-url">
-                hh.ru
-            </a>
-
-            <div class="company-description">Строительство, недвижимость, эксплуатация, проектирование</div>
-            
-            <a href="javascript: void(0);" class="company-url">Вакансии компании</a>
         </div>
 
-        <div class="article">
-            <h2 class="header-2">
-                Ксения Колосова
-            </h2>
-            <p class="text-main">
-                Руководитель проекта: &laquo;Все, что вы&nbsp;видите на&nbsp;наших сайтах, было создано именно нами и&nbsp;нашими руками&raquo;.
-            </p>
-            <img src="c/ksu.jpg" alt="" class="article-pic">
-            <p class="text-main">
-                Раньше Ксения целенаправленно собиралась стать переводчиком французского языка,
-                но&nbsp;поступила на&nbsp;физмат, а&nbsp;французский был забыт до&nbsp;уровня &laquo;жемапель
-                КсенИ&raquo;. Сейчас эта хрупкая девушка руководит сразу четырьмя командами разработки в&nbsp;HeadHunter!
-                С&nbsp;нами с&nbsp;2012&nbsp;года.
-            </p>
-
-            <h2 class="header-2">
-                Анна Федорченко
-            </h2>
-            <p class="text-main">
-                Менеджер проекта: &laquo;Мы&nbsp;верим в&nbsp;то, что настоящая работа обязательно должна быть любимой.
-                Так гораздо интереснее, чем сидеть на&nbsp;работе и&nbsp;бессмысленно отбывать часы&raquo;.
-            </p>
-            <img src="c/ann.jpg" alt="" class="article-pic">
-            <p class="text-main">
-                В&nbsp;2008 году Аня стала вторым по&nbsp;счету сотрудником в&nbsp;нашем только что открывшемся колл-центре
-                в&nbsp;Ярославле, а&nbsp;в&nbsp;2012 году переместилась на&nbsp;позицию руководителя службы технической поддержки
-                и&nbsp;секретарей! Теперь Аня вдохновенно трудится в&nbsp;отделе веб-сервисов в&nbsp;Москве, помогая нашему порталу
-                день за&nbsp;днем становиться лучше.
-            </p>
-            
-            <h2 class="header-2">
-                Максим Юдин
-            </h2>
-            <p class="text-main">
-                Разработчик мобильных приложений: &laquo;У&nbsp;нас ценят свободу творчества и&nbsp;предпринимательский дух&raquo;.
-            </p>
-            <img src="c/max.jpg" alt="" class="article-pic">
-            <p class="text-main">
-                Максим занимается Android-разработкой с&nbsp;далекого 2007&nbsp;года. Он&nbsp;создавал приложения для самых
-                разных компаний, включая job-сайты, и, по&nbsp;его словам, именно это и&nbsp;побудило его попасть
-                в&nbsp;HeadHunter и&nbsp;сделать по-настоящему удобным поиск работы на&nbsp;смартфонах. Сейчас Максим довольно
-                часто выступает на&nbsp;конференциях с&nbsp;профильными докладами и&nbsp;продолжает разрабатывать собственные приложения.
-            </p>            
+        <!-- Main menu -->
+        <div class="menu">
+            <div class="wrapper">
+                <a href="" class="menu-item">Ищу работу</a>
+                <a href="" class="menu-item">Ищу сотрудников</a>
+                <a href="" class="menu-item">Помощь</a>
+                <a href="" class="menu-item">Компании</a>
+                <a href="" class="menu-item">Проекты</a>
+            </div>
         </div>
 
-        <form class="comment">
+    </div>
 
-            <h2 class="header-2">
-                Комментарий
-            </h2>
+    <!-- Main content -->
+    <div class="content">
 
-            <div class="comment-item">
-                <label for="name" class="comment-label">
-                    Имя
-                </label>
-                <input id="name" type="text" class="system-control" />
+        <div class="cover">
+            <div class="cover-content">
+                <div class="cover-content-chapter">
+                    <a href="" class="cover-content-chapter-link">Статьи</a> /
+                    <a href="" class="cover-content-chapter-link">Интересное</a>
+                </div>
+
+                <h1 class="cover-content-header">
+                    Лица компании HeadHunter
+                </h1>
+
+                <!--Q: Dont know what to do-->
+                <p class="cover-content-lead">
+                    Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.
+                </p>
+
+                <div class="cover-content-attributes">
+                    <span class="cover-attribute cover-attribute_date">
+                        15 ноября 2015
+                    </span>
+
+                    <span class="cover-attribute cover-attribute_views">
+                        143
+                    </span>
+
+                    <span class="cover-attribute cover-attribute_comments">
+                        4
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="wrapper">
+
+            <div class="row">
+
+                <div class="column column_2"></div>
+
+                <div class="column column_12">
+
+                    <div class="company">
+                        <div class="company-logo">
+                            <a href="http://hh.ru/">
+                                <img src="c/logo.svg" alt="HeadHunter" />
+                            </a>
+                        </div>
+
+                        <div class="company-name">
+                            HeadHunter
+                        </div>
+
+                        <a href="http://hh.ru/" class="company-url">
+                            hh.ru
+                        </a>
+
+                        <div class="company-description">Строительство, недвижимость, эксплуатация, проектирование</div>
+
+                        <a href="javascript: void(0);" class="company-url">Вакансии компании</a>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="column column_10">
+
+                            <h2 class="header-2">
+                                Ксения Колосова
+                            </h2>
+                            <p class="text-main">
+                                Руководитель проекта: &laquo;Все, что вы&nbsp;видите на&nbsp;наших сайтах, было создано именно нами и&nbsp;нашими руками&raquo;.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <img src="c/ksu.jpg" alt="" class="article-pic">
+
+                    <div class="row">
+
+                        <div class="column column_10">
+
+                            <p class="text-main">
+                                Раньше Ксения целенаправленно собиралась стать переводчиком французского языка, но&nbsp;поступила на&nbsp;физмат, а&nbsp;французский
+                                был забыт до&nbsp;уровня &laquo;жемапель КсенИ&raquo;. Сейчас эта хрупкая девушка руководит
+                                сразу четырьмя командами разработки в&nbsp;HeadHunter! С&nbsp;нами с&nbsp;2012&nbsp;года.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="column column_10">
+
+                            <h2 class="header-2">
+                                Анна Федорченко
+                            </h2>
+                            <p class="text-main">
+                                Менеджер проекта: &laquo;Мы&nbsp;верим в&nbsp;то, что настоящая работа обязательно должна быть любимой. Так гораздо интереснее,
+                                чем сидеть на&nbsp;работе и&nbsp;бессмысленно отбывать часы&raquo;.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <img src="c/ann.jpg" alt="" class="article-pic">
+
+                    <div class="row">
+
+                        <div class="column column_10">
+
+                            <p class="text-main">
+                                В&nbsp;2008 году Аня стала вторым по&nbsp;счету сотрудником в&nbsp;нашем только что открывшемся колл-центре в&nbsp;Ярославле,
+                                а&nbsp;в&nbsp;2012 году переместилась на&nbsp;позицию руководителя службы технической поддержки
+                                и&nbsp;секретарей! Теперь Аня вдохновенно трудится в&nbsp;отделе веб-сервисов в&nbsp;Москве,
+                                помогая нашему порталу день за&nbsp;днем становиться лучше.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+
+                        <div class="column column_10">
+
+                            <h2 class="header-2">
+                                Максим Юдин
+                            </h2>
+                            <p class="text-main">
+                                Разработчик мобильных приложений: &laquo;У&nbsp;нас ценят свободу творчества и&nbsp;предпринимательский дух&raquo;.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <img src="c/max.jpg" alt="" class="article-pic">
+
+                    <div class="row">
+
+                        <div class="column column_10">
+
+                            <p class="text-main">
+                                Максим занимается Android-разработкой с&nbsp;далекого 2007&nbsp;года. Он&nbsp;создавал приложения для самых разных компаний,
+                                включая job-сайты, и, по&nbsp;его словам, именно это и&nbsp;побудило его попасть в&nbsp;HeadHunter
+                                и&nbsp;сделать по-настоящему удобным поиск работы на&nbsp;смартфонах. Сейчас Максим довольно
+                                часто выступает на&nbsp;конференциях с&nbsp;профильными докладами и&nbsp;продолжает разрабатывать
+                                собственные приложения.
+                            </p>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="column column_2"></div>
+
             </div>
 
-            <div class="comment-item">
-                <label for="email" class="comment-label">
-                    E-mail
-                </label>
-                <input id="email" type="email" class="system-control" />
+            <div class="row">
+
+                <div class="column column_2"></div>
+
+                <div class="column column_5">
+
+                    <form class="comment">
+
+                        <h2 class="header-2">
+                            Комментарий
+                        </h2>
+
+                        <div class="comment-item">
+                            <label for="name" class="comment-label">
+                                Имя
+                            </label>
+                            <input id="name" type="text" class="system-control" />
+                        </div>
+
+                        <div class="comment-item">
+                            <label for="email" class="comment-label">
+                                E-mail
+                            </label>
+                            <input id="email" type="email" class="system-control" />
+                        </div>
+
+                        <div class="comment-item">
+                            <label for="comment-text" class="comment-label">
+                                Комментарий
+                            </label>
+                            <textarea id="comment-text" class="system-control system-control_text" cols="30" rows="10"></textarea>
+                        </div>
+
+                        <button type="submit" class="button-main">
+                            Добавить
+                        </button>
+
+                    </form>
+
+                </div>
+
+                <div class="column column_9"></div>
+
             </div>
 
-            <div class="comment-item">
-                <label for="comment-text" class="comment-label">
-                    Комментарий
-                </label>
-                <textarea id="comment-text" class="system-control system-control_text" cols="30" rows="10"></textarea>
-            </div>
-            
-            <button type="submit" class="button-main">
-                Добавить
-            </button>
-
-        </form>
+        </div>
 
     </div>
-</div>    
 
-<div class="wrapper-system">
-    <!-- Footer -->
-    <div class="footer">
+    <div class="wrapper">
+
+        <!-- Footer -->
+        <div class="footer">
 
             <div class="footer-social">
                 <a href="" class="social-link social-link_vk">VK</a>
@@ -204,22 +288,22 @@
                 <a href="" class="social-link social-link_tw">Twitter</a>
                 <a href="" class="social-link social-link_ig">Instagram</a>
             </div>
-    
+
             <div class="footer-menu">
-                <a href="" class="footer-menu-main">Работодателям</a>
+                <a href="" class="footer-menu-item">Работодателям</a>
                 <a href="" class="footer-menu-item">Прайс-лист</a>
                 <a href="" class="footer-menu-item">Производственный календарь</a>
                 <a href="" class="footer-menu-item">HR-Digital</a>
             </div>
 
             <div class="footer-menu">
-                <a href="" class="footer-menu-main">Соискателям</a>
+                <a href="" class="footer-menu-item">Соискателям</a>
                 <a href="" class="footer-menu-item">Продвижение резюме</a>
                 <a href="" class="footer-menu-item">Работа в других городах</a>
             </div>
 
             <div class="footer-menu">
-                <a href="" class="footer-menu-main">&copy; 2018 Группа компаний HeadHunter</a>
+                <a href="" class="footer-menu-item">&copy; 2018 Группа компаний HeadHunter</a>
                 <a href="" class="footer-menu-item">Наши вакансии</a>
                 <a href="" class="footer-menu-item">Партнерам</a>
                 <a href="" class="footer-menu-item">Реклама на сайте</a>
@@ -230,18 +314,17 @@
                 <a href="" class="footer-menu-item">Защита персональных данных</a>
                 <a href="" class="footer-menu-item">Безопасный HeadHunter</a>
             </div>
-    
+
             <div class="footer-stat">
-                Сегодня на сайте
-                567&thinsp;151 вакансия,
-                33&thinsp;845&thinsp;683 резюме,
-                813&thinsp;660 компаний и за неделю 
-                1&thinsp;302&thinsp;376 приглашений
+                Сегодня на сайте 567&thinsp;151 вакансия, 33&thinsp;845&thinsp;683 резюме, 813&thinsp;660 компаний и за неделю 1&thinsp;302&thinsp;376
+                приглашений
             </div>
+
+        </div>
 
     </div>
 
-</div>
+    <script src="grid.js"></script>
 
 </body>
 

@@ -98,7 +98,7 @@ link, visited, hover, focus, active
     box-sizing: border-box;
     width: 1280px;
     padding: 0 15px;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 .cover-content-header {
@@ -225,7 +225,7 @@ link, visited, hover, focus, active
 
 .header-2 {
     font: 36px ProximaNovaCondensed, Arial, sans-serif;
-    margin: 40px 0 10px; 
+    margin: 20px 0 10px; 
 }
 
 .article-pic {
@@ -426,15 +426,15 @@ link, visited, hover, focus, active
     padding: 0 15px;
 }
 
-.column_01 {flex: 0 0 80px;}
-.column_02 {flex: 0 0 160px;}
-.column_03 {flex: 0 0 240px;}
-.column_04 {flex: 0 0 320px;}
-.column_05 {flex: 0 0 400px;}
-.column_06 {flex: 0 0 480px;}
-.column_07 {flex: 0 0 560px;}
-.column_08 {flex: 0 0 640px;}
-.column_09 {flex: 0 0 720px;}
+.column_1 {flex: 0 0 80px;}
+.column_2 {flex: 0 0 160px;}
+.column_3 {flex: 0 0 240px;}
+.column_4 {flex: 0 0 320px;}
+.column_5 {flex: 0 0 400px;}
+.column_6 {flex: 0 0 480px;}
+.column_7 {flex: 0 0 560px;}
+.column_8 {flex: 0 0 640px;}
+.column_9 {flex: 0 0 720px;}
 .column_10 {flex: 0 0 800px;}
 .column_11 {flex: 0 0 880px;}
 .column_12 {flex: 0 0 960px;}

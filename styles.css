@@ -377,15 +377,17 @@ link, visited, hover, focus, active
 */
 
 .footer-menu {
-    margin: 0 10px 0 -5px;
-    text-decoration: none;    
+    text-decoration: none;
+    margin-bottom: 5px;
 }
 
 .footer-menu-item {
     border-right: 1px solid #ccc;
-    padding: 0 7px 0 5px;
     text-decoration: inherit;
     white-space: nowrap;
+
+    padding-right: 7px;
+    margin-right: 5px;
 }
 
 .footer-menu-item:link,

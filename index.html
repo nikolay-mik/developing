@@ -17,37 +17,48 @@
 
             <!-- Header -->
             <header class="header">
-                <img alt="hh.ru" src="i/hh.ru__min_.svg" class="hh-logo" />
 
-                <form class="vacancy-search">
-                    <div class="vacancy-search-input">
-                        <input type="text" class="system-control" placeholder="Вакансия" />
-                    </div>
+                <div class="header-content">
 
-                    <div class="vacancy-search-select">
-                        <select class="system-control system-control_select">
-                            <option selected>Вакансии</option>
-                            <option>Резюме</option>
-                            <option>Компании</option>
-                        </select>
-                    </div>
+                    <img alt="hh.ru" src="i/hh.ru__min_.svg" class="hh-logo" />
 
-                    <div class="vacancy-search-button">
-                        <button type="submit" class="button-main">Найти</button>
-                    </div>
+                    <form class="vacancy-search">
+
+                        <div class="vacancy-search-input">
+                            <input type="text" class="system-control" placeholder="Вакансия" />
+                        </div>
+
+                        <div class="vacancy-search-select">
+                            <select class="system-control system-control_select">
+                                <option selected>Вакансии</option>
+                                <option>Резюме</option>
+                                <option>Компании</option>
+                            </select>
+                        </div>
+
+                        <div class="vacancy-search-button">
+                            <button type="submit" class="button-main">Найти</button>
+                        </div>
+
+                    </form>
+
+                </div>
+
+                <div class="header-control-group">
 
                     <div class="vacancy-search-advanced">
                         <a href="" class="header-link">Расширенный поиск</a>
                     </div>
-                </form>
 
-                <div class="area">
-                    <a href="" class="header-link">Работа в России</a>
+                    <div class="area">
+                        <a href="" class="header-link">Работа в&nbsp;России</a>
+                    </div>
+
+                    <div class="locale">
+                        <button class="locale-switcher">Сменить язык</button>
+                    </div>
                 </div>
 
-                <div class="locale">
-                    <button class="locale-switcher">Сменить язык</button>
-                </div>
             </header>
 
         </div>
@@ -61,9 +72,14 @@
                     <a href="" class="menu-item">Помощь</a>
                     <a href="" class="menu-item">Компании</a>
                     <a href="" class="menu-item">Проекты</a>
-                    
+
                     <a href="" class="menu-item menu-item_alt">Войти</a>
-                </nav>                    
+                </nav>
+                <div class="menu-compact">
+                    <img src="i/arr.svg" class="menu-compact-back" alt="hh.ru" />
+                    <img src="i/hh.ru__min_.svg" class="hh-logo hh-logo_menu" alt="hh.ru" />
+                    <img src="i/menu.svg" class="menu-compact-submenu" alt="hh.ru" />
+                </div>
             </div>
         </div>
 
@@ -71,37 +87,37 @@
 
     <!-- Main content -->
     <div class="content">
-
         <div class="cover">
             <div class="cover-content">
-                <div class="cover-content-chapter">
-                    <a href="" class="cover-content-chapter-link">Статьи</a> /
-                    <a href="" class="cover-content-chapter-link">Интересное</a>
+                <div class="wrapper">
+                    <div class="cover-content-chapter">
+                        <a href="" class="cover-content-chapter-link">Статьи</a> /
+                        <a href="" class="cover-content-chapter-link">Интересное</a>
+                    </div>
+
+                    <h1 class="cover-content-header">
+                        Лица компании HeadHunter
+                    </h1>
+
+                    <!--Q: Dont know what to do-->
+                    <p class="cover-content-lead">
+                        Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.
+                    </p>
+
+                    <div class="cover-content-attributes">
+                        <span class="cover-attribute cover-attribute_date">
+                            15 ноября 2015
+                        </span>
+
+                        <span class="cover-attribute cover-attribute_views">
+                            143
+                        </span>
+
+                        <span class="cover-attribute cover-attribute_comments">
+                            4
+                        </span>
+                    </div>
                 </div>
-
-                <h1 class="cover-content-header">
-                    Лица компании HeadHunter
-                </h1>
-
-                <!--Q: Dont know what to do-->
-                <p class="cover-content-lead">
-                    Не так давно люди искали работу через газеты и обзванивали знакомых. Но всего за 10 лет мир изменился.
-                </p>
-
-                <div class="cover-content-attributes">
-                    <span class="cover-attribute cover-attribute_date">
-                        15 ноября 2015
-                    </span>
-
-                    <span class="cover-attribute cover-attribute_views">
-                        143
-                    </span>
-
-                    <span class="cover-attribute cover-attribute_comments">
-                        4
-                    </span>
-                </div>
-
             </div>
         </div>
 
@@ -109,9 +125,9 @@
 
             <div class="row">
 
-                <div class="column column_l-2 column_m-0"></div>
+                <div class="column column_l-2 column_m-0 column_xs-0"></div>
 
-                <div class="column column_l-12 column_m-12">
+                <div class="column column_l-12 column_m-12 column_s-8 column_xs-4">
 
                     <div class="company">
                         <div class="company-logo">
@@ -135,7 +151,7 @@
 
                     <div class="row">
 
-                        <div class="column column_l-10 column_m-10">
+                        <div class="column column_l-10 column_m-10 column_s-8 column_xs-4">
 
                             <h2 class="header-2">
                                 Ксения Колосова
@@ -152,7 +168,7 @@
 
                     <div class="row">
 
-                        <div class="column column_l-10 column_m-10">
+                        <div class="column column_l-10 column_m-10 column_s-8 column_xs-4">
 
                             <p class="text-main">
                                 Раньше Ксения целенаправленно собиралась стать переводчиком французского языка, но&nbsp;поступила на&nbsp;физмат, а&nbsp;французский
@@ -165,7 +181,7 @@
 
                     <div class="row">
 
-                        <div class="column column_l-10 column_m-10">
+                        <div class="column column_l-10 column_m-10 column_s-8 column_xs-4">
 
                             <h2 class="header-2">
                                 Анна Федорченко
@@ -182,7 +198,7 @@
 
                     <div class="row">
 
-                        <div class="column column_l-10 column_m-10">
+                        <div class="column column_l-10 column_m-10 column_s-8 column_xs-4">
 
                             <p class="text-main">
                                 В&nbsp;2008 году Аня стала вторым по&nbsp;счету сотрудником в&nbsp;нашем только что открывшемся колл-центре в&nbsp;Ярославле,
@@ -196,7 +212,7 @@
 
                     <div class="row">
 
-                        <div class="column column_l-10 column_m-10">
+                        <div class="column column_l-10 column_m-10 column_s-8 column_xs-4">
 
                             <h2 class="header-2">
                                 Максим Юдин
@@ -212,7 +228,7 @@
 
                     <div class="row">
 
-                        <div class="column column_l-10 column_m-10">
+                        <div class="column column_l-10 column_m-10 column_s-8 column_xs-4">
 
                             <p class="text-main">
                                 Максим занимается Android-разработкой с&nbsp;далекого 2007&nbsp;года. Он&nbsp;создавал приложения для самых разных компаний,
@@ -227,15 +243,14 @@
 
                 </div>
 
-                <div class="column column_l-2 column_m-0"></div>
-
+                <div class="column column_l-2 column_m-0 column_xs-0"></div>
             </div>
 
             <div class="row">
 
-                <div class="column column_l-2 column_m-0"></div>
+                <div class="column column_l-2 column_m-0 column_xs-0"></div>
 
-                <div class="column column_l-5 column_m-5">
+                <div class="column column_l-5 column_m-5 column_s-5 column_xs-4">
 
                     <form class="comment">
 
@@ -272,7 +287,7 @@
 
                 </div>
 
-                <div class="column column_l-9 column_m-7"></div>
+                <div class="column column_l-9 column_m-7 column_s-3 column_xs-0"></div>
 
             </div>
 
@@ -320,10 +335,19 @@
             </div>
 
             <div class="footer-stat">
-                Сегодня на сайте 567&thinsp;151 вакансия, 33&thinsp;845&thinsp;683 резюме, 813&thinsp;660 компаний и за неделю 1&thinsp;302&thinsp;376
-                приглашений
+                Сегодня на сайте 567&thinsp;151&nbsp;вакансия, 33&thinsp;845&thinsp;683&nbsp;резюме, 813&thinsp;660&nbsp;компаний и&nbsp;за&nbsp;неделю&nbsp;1&thinsp;302&thinsp;376&nbsp;приглашений
             </div>
 
+        </div>
+
+    </div>
+
+    <div class="footer-compact">
+        <div class="footer-compact-menu">
+            <a href="" class="footer-compact-menu-item">&copy; 2018 Группа компаний HeadHunter</a>
+        </div>
+        <div class="footer-compact-stat">
+            Сегодня на сайте 567&thinsp;151&nbsp;вакансия, 33&thinsp;845&thinsp;683&nbsp;резюме, 813&thinsp;660&nbsp;компаний и&nbsp;за&nbsp;неделю&nbsp;1&thinsp;302&thinsp;376&nbsp;приглашений
         </div>
 
     </div>

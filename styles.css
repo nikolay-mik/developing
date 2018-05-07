@@ -378,6 +378,7 @@ link (?), visited (?), hover, focus, active
 }
 
 .system-control_select {
+    appearance: none;
     -webkit-appearance: none;
 
     width: auto;

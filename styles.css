@@ -67,7 +67,7 @@ link, visited, hover, focus, active
     margin-right: 20px;
 }
 
-.hh-logo_menu {
+.hh-logo-compact {
     height: 30px;
     margin: 0;
 }
@@ -89,12 +89,18 @@ link, visited, hover, focus, active
 }
 
 .menu-compact-back {
+    background: #000 url("i/arr.svg") no-repeat 0 0;
+    background-size: 100% 100%;
+
     width: 20px;
     height: 20px;
     margin: 5px 0;
 }
 
 .menu-compact-submenu {
+    background: #000 url("i/menu.svg") no-repeat 0 0;
+    background-size: 100% 100%;
+
     width: 20px;
     height: 20px;
     margin: 5px 0;
@@ -345,7 +351,7 @@ link (?), visited (?), hover, focus, active
     border-color: #acb5ba;
 }
 
-.area {
+.area-picker {
     margin-left: 30px;
 }
 
@@ -630,12 +636,40 @@ link, visited, hover, focus, active
         justify-content: space-between;
     }
 
+    .wrapper_footer {
+        color: #ccc;
+        background: #333;
+
+        margin-top: 40px;
+        padding: 30px 15px 30px;
+    }
+    
     .footer {
+        font-size: 14px;
+        color: #fff;
+
+        margin: 0;
+    }
+
+    .footer-menu-item {
         display: none;
     }
 
-    .footer-compact {
-        display: block;
+    .footer-menu-item:first-child {
+        display: inline-block;
+        border: none;
+        color: #fff;
+        
+        margin-bottom: 10px;
+    }
+
+    .footer-social {
+        display: none;
+    }
+
+    .footer-stat {
+        color: #999;
+        font-size: 12px;
     }
 
     .cover {

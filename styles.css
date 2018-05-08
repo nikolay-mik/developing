@@ -416,42 +416,6 @@ link (?), visited (?), hover, focus, active
     color: #999;
 }
 
-.footer-compact {
-    margin-top: 40px;
-    padding: 25px 15px;
-    
-    color: #ccc;
-    background: #333;
-    display: none;
-    font-size: 14px;
-}
-
-.footer-compact-menu {
-    color: #ccc;
-    margin-bottom: 10px;
-}
-
-.footer-compact-stat {
-    margin-bottom: 10px;
-}
-
-.footer-compact-menu-item {
-    color: #ccc;
-    text-decoration: none;
-}
-
-.footer-compact-menu-item:link,
-
-.footer-compact-menu-item:visited {
-    color: #ccc;
-}
-
-.footer-compact-menu-item:hover,
-.footer-compact-menu-item:focus,
-.footer-compact-menu-item:active {
-    color: #c66;
-}
-
 /*
 Footer Menu
 link, visited, hover, focus, active
